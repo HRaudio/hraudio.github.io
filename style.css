@@ -416,6 +416,7 @@ a:focus,
 
 
 .mu-navbar-nav .dropdown-menu {
+	background-color: #f9f9f9;
 	left: auto;
 	right: 0;
 }
@@ -1566,7 +1567,6 @@ a:focus,
 	display: inline;
 	float: left;
 	width: 100%;
-	padding-top: 12px;
 }
 
 .mu-social-media a {
@@ -2648,12 +2648,12 @@ a:focus,
 }
 
 .mu-contact-form .form-group input {
-	background: transparent;
-	border-radius: 0;
+	background: #f9f9f9;
+	border-radius: 6px;
 	color: #333;
 	font-size: 14px;
 	border: 1px #cccccc;
-	border-style: none none solid none;
+	border-style: solid;
 	height: 45px;
 	padding: 0 25px;
 	margin-bottom: 24px;
@@ -2663,10 +2663,10 @@ a:focus,
 }
 
 .mu-contact-form .form-group textarea {
-	background: transparent;
+	background: #f9f9f9;
 	border: 1px #cccccc;
-	border-style: none none solid none;
-	border-radius: 0;
+	border-style: solid;
+	border-radius: 6px;
 	color: #333;
 	font-size: 14px;
 	padding: 10px;
@@ -2677,29 +2677,29 @@ a:focus,
 }
 
 .mu-contact-form .form-control:focus {
-	background-color: #fff;
-	border-style: none none solid none;
+	background-color: #f9f9f9;
+	border-style: solid;
     outline: 0;
     box-shadow: none;    
 } 
 
 .mu-contact-form .form-control::-webkit-input-placeholder {
-	color: #7e7e7e;
+	color: #9c9c9c;
 	font-size: 14px;
 }
 
 .mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
-	color: #7e7e7e;
+	color: #9c9c9c;
 	font-size: 14px;
 }
 
 .mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
-	color: #7e7e7e;
+	color: #9c9c9c;
 	font-size: 14px;
 }
 
 .mu-contact-form .form-control:-ms-input-placeholder {  
-	color: #7e7e7e;
+	color: #9c9c9c;
 	font-size: 14px;
 }
 
@@ -2710,7 +2710,6 @@ a:focus,
 
 #form-messages {
 	margin-bottom: 10px;
-    background-color: #fff;
 }
 
 .success {
