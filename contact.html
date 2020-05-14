@@ -101,7 +101,7 @@
 
 												<div class="form-group">  
 													<span class="fa fa-envelope mu-contact-icon"></span>              
-													<input type="email" class="form-control" placeholder="Enter your email" id="email" name="email" required>
+													<input type="email" class="form-control" placeholder="E-mail address" id="email" name="email" required>
 												</div>    
 
 												<div class="form-group"> 
@@ -116,10 +116,10 @@
 												<button type="submit" class="mu-send-msg-btn"><span>Send Message</span></button>
 											</form>
 											
-                                            <div id="thankyou-block" style="display:none">
-												<p>
+                                            <div id="thankyou" style="display:none">
+												<h3>
 													Message sent! Thank you
-												</p>
+												</h3>
 											</div>
 
 										</div>
@@ -150,10 +150,15 @@
 								</div>
 								<div class="col-md-12">
 									<div class="mu-newsletter-content">
-										<form class="mu-subscribe-form">
-											<input type="email" placeholder="Write your e-mail here">
-											<button class="mu-subscribe-btn">Subscribe</button>
+										<form id="ajax-subscribe" method="post" class="mu-subscribe-form">
+											<input type="email" placeholder="Write your e-mail here" id="subscribe" name="email" required>
+											<button type="submit" class="mu-subscribe-btn">Subscribe</button>
 										</form>
+										<div id="subscribed" style="display:none">
+											<h3>
+												Subscribed! Thank you
+											</h3>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -186,8 +191,7 @@
 						<div class="mu-single-footer">
 							<h3>Social feed</h3>
 							<div class="mu-social-media">
-								<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-								<a class="mu-youtube" href="https://www.youtube.com"><i class="fa fa-youtube-play"></i></a>
+								<a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
 								<a class="mu-soundcloud" href="https://soundcloud.com"><i class="fa fa-soundcloud"></i></a>
 							</div>
 						</div>

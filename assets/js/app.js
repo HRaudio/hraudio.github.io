@@ -10,7 +10,7 @@ $(document).ready(function() {
 		var email = $('#email').val();
 		//get the subject
 		var subject = $('#subject').val();
-		//get the subject
+		//get the message
 		var message = $('#message').val();
 		
 		//pretend we don't need validation
@@ -29,7 +29,33 @@ $(document).ready(function() {
 			success:function() {
 				console.log('success');	
 				$('#ajax-contact').hide();
-				$('#thankyou-block').show();
+				$('#thankyou').show();
+			}	
+
+		});		
+		
+	});
+
+	$('#ajax-subscribe').on('submit', function(e) {
+		e.preventDefault();
+		
+		//get the subscribe field value
+		var email = $('#subscribe').val();
+		
+		//pretend we don't need validation
+		
+		//send to formspree
+		$.ajax({
+			url:'https://formspree.io/mdowklag',
+			method:'POST',
+			data:{
+				Email:email,
+			},
+			dataType:"json",
+			success:function() {
+				console.log('success');	
+				$('#ajax-subscribe').hide();
+				$('#subscribed').show();
 			}	
 
 		});		

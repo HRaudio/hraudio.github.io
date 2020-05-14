@@ -393,9 +393,9 @@ a:focus,
 	text-transform: uppercase;
 	padding: 9px 18px;
 	border-radius: 15px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 
@@ -419,6 +419,7 @@ a:focus,
 	background-color: #f9f9f9;
 	left: auto;
 	right: 0;
+	border-radius: 15px;
 }
 
 .mu-navbar-nav li .dropdown-menu a {
@@ -1335,7 +1336,6 @@ a:focus,
 	width: 100%;
 }
 
-
 #mu-newsletter::before {
 	background: #0091ea;
 	bottom: 0;
@@ -1347,7 +1347,6 @@ a:focus,
 	opacity: 0.8;
 	z-index: 10;
 }
-
 
 .mu-newsletter-area {
 	display: inline;
@@ -1364,6 +1363,11 @@ a:focus,
 
 .mu-newsletter-area .mu-title p {
 	color: #fff;
+}
+
+.mu-newsletter-area h3 {
+	color: #fff;
+	text-align: center;
 }
 
 .mu-newsletter-content {
@@ -1571,7 +1575,7 @@ a:focus,
 }
 
 .mu-social-media a {
-	background-color: #3b5998;
+	background-color: #1da1f2;
 	border: 1px solid #babcbe;
 	border-radius: 50%;
 	color: #fff;
@@ -2099,12 +2103,6 @@ a:focus,
 	padding: 16px 20px;
 }
 
-.mu-sidebar-social-widget .mu-social-media {
-	border-top: none;
-	margin-top: 10px;
-	text-align: center;
-}
-
 .mu-sidebar-social-widget .mu-social-media a {
 	width: 50px;
 	height: 50px;
@@ -2179,6 +2177,12 @@ a:focus,
 
 .mu-sidebar-subscribe-widget .mu-subscribe-form input {
 	border: 1px solid #0091ea;
+}
+
+.mu-subscribed h4 {
+	margin-top: 35px;
+	text-align: center;
+	color: #0091ea;
 }
 
 .mu-popular-content-widget {
@@ -2630,6 +2634,10 @@ a:focus,
 	display: inline;
 	float: left;
 	width: 100%;
+}
+
+.mu-contact-form-area h3 {
+    color: #0091ea;
 }
 
 .mu-contact-form {
