@@ -1544,7 +1544,7 @@ a:focus,
 .mu-single-footer .list-unstyled li.media p {
 	line-height: 1.5;
 	margin-top: -5px;
-	margin-bottom: 4px;
+	margin-bottom: 0px;
 	font-size: 14px;
 }
 
@@ -1596,10 +1596,6 @@ a:focus,
 
 .mu-social-media a.mu-soundcloud {
 	background-color: #f05c06;
-}
-
-.mu-social-media a.mu-youtube {
-	background-color: #cd201f;
 }
 
 .mu-social-media a:hover,
